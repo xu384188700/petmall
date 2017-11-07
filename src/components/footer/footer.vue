@@ -28,7 +28,7 @@
     position absolute
     left 0
     bottom 0
-    z-index 2
+    z-index 100
     width: 100%
     .nav-list
       overflow hidden
@@ -40,14 +40,15 @@
         height 45px
         .index-a
           vertical()
-          ft-bg-image("img.png",0,0)
+          ft-bg-image("./img.png",0,0)
         .type-a
           vertical()
-          ft-bg-image("img.png",-85px,-40px)
+          ft-bg-image("./img.png",-85px,-40px)
         .cart-a
           vertical()
-          ft-bg-image("img.png",-85px,-80px)
+          ft-bg-image("./img.png",-85px,-80px)
         .myepet-a
           vertical()
-          ft-bg-image("img.png",-85px,-120px)
+          ft-bg-image("./img.png",-85px,-120px)
+          
 </style>
